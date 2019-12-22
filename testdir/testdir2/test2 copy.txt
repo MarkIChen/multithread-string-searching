@@ -1,0 +1,3 @@
+The primary intention of writing this article is to give you an overview of how we can entertain multiple client requests to a server in parallel. For example, you are going to create a TCP/IP server which can receive multiple client requests at the same time and entertain each client request in parallel so that no client will have to wait for server time. Normally, you will get lots of examples of TCP/IP servers and client examples online which are not capable of processing multiple client requests in parallel.  
+
+In the first example, the TCP/IP server has been designed with multi-threading for parallel processing and in the second example, I have implemented the server with multi-processing to accomplish the same goal. exexe.
